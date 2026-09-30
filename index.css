@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    border:dotted gray;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: solid black;
+}
+
