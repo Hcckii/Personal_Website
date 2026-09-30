@@ -3,10 +3,14 @@
 }
 
 .container{
+    width: 400px;
+    height:400px;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
     border:dotted gray;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 .box{
