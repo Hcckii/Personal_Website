@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    border:0;
+    margin:0;
 }
 
 .container{
@@ -22,6 +24,7 @@
 }
 
 .grid-container{
+    border:solid black 1px;
     display:grid;
     width: 500px;
     height: 500px;
@@ -37,7 +40,7 @@
 }
 
 .grid-container input[type="text"]:focus{
-    background-color: gray;
+    background-color:lightblue;
 
 }
 .block{
