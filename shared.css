@@ -61,3 +61,10 @@ body{
 .block{
     background-color: black;
 }
+
+.centered-list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
