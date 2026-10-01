@@ -4,8 +4,8 @@
 
 .container{
     display:flex;
-    width: 400px;
-    height:400px;
+    width: 80%;
+    aspect-ratio: 1/1;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
@@ -23,8 +23,8 @@
 
 .grid-container{
     display:grid;
-    width: 500px;
-    height: 500px;
+    width: 80%;
+    aspect-ratio: 1/1;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     border:solid black 1px;
