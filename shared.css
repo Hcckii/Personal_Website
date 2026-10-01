@@ -9,6 +9,9 @@ body{
     align-items: center;
     background-color: azure;
 }
+.about-me{
+    background-color: khaki;
+}
 
 .container{
     display:flex;
