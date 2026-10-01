@@ -37,13 +37,18 @@ body{
     grid-template-rows: repeat(5, 1fr);
     border:solid black 1px;
 }
-
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1rem;
+}
 @media (min-width:864px){
     h1{
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     h2{
-        font-size: 30px;
+        font-size: 2rem;
     }
     .grid-container{
         width: 40%;
