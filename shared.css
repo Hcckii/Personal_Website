@@ -62,6 +62,11 @@ nav ul{
     border:solid black 1px;
 }
 
+.centered{
+    display: flex;
+    align-items: center;
+}
+
 h1{
     font-size: 1.5rem;
 }
@@ -82,12 +87,4 @@ h2{
     .container{
         width: 40%;
     }
-}
-
-.centered-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
