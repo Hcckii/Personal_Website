@@ -1,0 +1,15 @@
+img{
+    width: 50%;
+    height: auto;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+@media (min-width:864px){
+    img{
+        width:20%;
+        height: auto;
+    }
+}
