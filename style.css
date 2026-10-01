@@ -36,6 +36,10 @@
     height: 100%;
 }
 
+.grid-container input[type="text"]:focus{
+    background-color: gray;
+
+}
 .block{
     background-color: black;
 }
