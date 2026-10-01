@@ -6,6 +6,10 @@ body{
     background-color: azure;
 }
 
+main{
+    padding-top: 60px;
+}
+
 nav {
     position: sticky;
     top: 0;
