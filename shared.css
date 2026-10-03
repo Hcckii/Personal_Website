@@ -1,3 +1,12 @@
+:root {
+    --color-bg: azure;
+    --color-bg-game:rgba(255, 140, 0, 0.343);
+    --color-bg-about: rgba(255, 243, 205, 0.852);
+    --color-accent: lightblue;
+    --color-focus: rgb(131, 72, 72);
+    
+}
+
 *{
     box-sizing: border-box;
 }
@@ -7,7 +16,7 @@ body{
     font-family: Arial;
     flex-direction: column;
     align-items: center;
-    background-color: azure;
+    background-color: var(--color-bg);
     min-height: 100vh;
 }
 
@@ -36,6 +45,18 @@ nav ul{
     gap: 10px;
     margin: 0;
     padding: 0;
+}
+nav a:hover{
+    background-color: var(--color-accent);
+}
+nav a:focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    transition: background-color 0.2s;
 }
 
 details ul{
