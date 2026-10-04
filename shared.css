@@ -90,13 +90,6 @@ details ul{
     gap:10px;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    border: solid black;
-}
-
 .grid-container{
     display:grid;
     width: 70%;
